@@ -1,9 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-10-13T12:25:56.861Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.4" etag="Atytl-JP6T8xK6SSRJtd" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T15:11:11.126Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="bxzmg-G5sFvZ1wiCuylT" version="22.0.4" type="github" pages="2">
   <diagram name="第 1 页" id="PDwUwNBfNE_U4Y9gv8rp">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6qnZzPhelS1jOabr_v0E-1" value="framework" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6qnZzPhelS1jOabr_v0E-2" value="AAudio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="390" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6qnZzPhelS1jOabr_v0E-3" value="BluetoothService.&lt;br&gt;A2dpSinkStreamHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6qnZzPhelS1jOabr_v0E-4" value="controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="680" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6qnZzPhelS1jOabr_v0E-5" value="libbrtsdk.so&lt;br&gt;c native" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="410" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6qnZzPhelS1jOabr_v0E-6" value="AudioFocus" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6qnZzPhelS1jOabr_v0E-7" value="a2dp_sink.defalut.so" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="160" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kgr1M3xTQaa5CWnzfqyM" name="第 2 页">
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vKmi1ygVDOnF2ttr463b-1" value="AudioFocus" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="90" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="vKmi1ygVDOnF2ttr463b-2" value="A2dpSinkStreamHanlder" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vKmi1ygVDOnF2ttr463b-4" value="libbrtsdk.so" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vKmi1ygVDOnF2ttr463b-6" value="a2dp_sink.default.so" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="vKmi1ygVDOnF2ttr463b-7" value="aaudio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="90" height="290" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
